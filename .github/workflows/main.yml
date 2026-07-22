@@ -1,0 +1,6 @@
+git checkout -b test/trigger-evaluation
+# Make a small change to any agent file, for example:
+code src/agents/trail_guide_agent/prompts/v1_instructions.txt
+git add .
+git commit -m "test: trigger evaluation workflow"
+git push origin test/trigger-evaluation
